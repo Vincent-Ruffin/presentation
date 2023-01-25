@@ -1,3 +1,3 @@
 # presentation
-// personnal portfolio
+<!--personnal portfolio
 <!--in progress...
