@@ -1,0 +1,434 @@
+html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Vincent Ruffin | Portfolio</title>
+    <meta name="author" content="Vincent Ruffin"/>
+    <meta name="copyright" content="Vincent Ruffin"/>
+    <meta name="description" content="Portfolio de Vincent Ruffin, étudiant en 2ère année de BTS Web concepteur à EKOD Le Mans développeur HTML, CSS, JavaScript & PHP"/>
+    <meta name="keywords" content="Vincent Ruffin, étudiant, portfolio, développeur, student, informatique, java, html, css, javascript, php"/>
+    <meta property="og:title" content="Vincent Ruffin | Portfolio"/>
+    <meta property="og:description" content="Portfolio de Vincent Ruffin, étudiant en 2ère année de BTS Web concepteur, HTML, CSS, JavaScript & PHP"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://vincent-ruffin.github.io"/>
+    <meta property="og:image" content="https://vincent-ruffin.github.io/img/og-photo.jpg"/>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="load">
+        <div>Vincent<span class="bold">Ruffin</span></div>
+        <noscript>Ce site a besoin de JavaScript pour fonctionner</noscript>
+        <img src="icons/loading.svg" alt="Chargement"/>
+    </div>
+    <div class="status">Le formulaire a bien été envoyé</div>
+    <nav>
+        <div>
+            <div id="title">
+                Vincent<span class="bold">Ruffin</span>
+            </div>
+            <div class="menu">
+                <a href="javascript:void(0)" title="Afficher le menu" class="hamburger" onclick="toggleMenu()">
+                    <i class="fa fa-navicon fa-lg"></i>
+                </a>
+                <a href="javascript:void(0)" title="Fermer le menu" class="hamburger" onclick="toggleMenu()">
+                    <i class="fa fa-close fa-lg"></i>
+                </a>
+                <a href="#home" title="Accueil" id="homeB">Accueil</a>
+                <a href="#about" title="À propos" id="aboutB">À propos</a>
+                <a href="#skills" title="Compétences" id="skillsB">Compétences</a>
+                <a href="#portfolio" title="Portfolio" id="portfolioB">Portfolio</a>
+                <a href="#contact" title="Contact" id="contactB">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="run-animation">
+        <div>
+            <div class="homePres">
+                <img src="img/pp-flat.png" alt="Photo de profil flat"/>
+                <div>
+                    <p class="name">Vincent Ruffin</p>
+                    <p class="student">Web concepteur</p>
+                </div>
+                <p class="developer">Développeur HTML, CSS, JavaScript & PHP</p>
+            </div>
+        </div>
+        <a href="#about" title="Descendre" class="scrollDown">
+            <img src="icons/clicker.svg" alt="Souris" class="mouse"/>
+            <img src="icons/down.svg" alt="Descendre" class="down"/>
+        </a>
+    </header>
+    <section id="about">
+        <div>
+            <h1>À propos de moi</h1>
+            <div class="container">
+                <div class="presentation">
+                    <div class="presText">
+                        <h2>Vincent Ruffin, 35ans</h2>
+                        <h3>Étudiant en BTS <span class="blue resetColor">Web concepteur</span></h3>
+                        <p>
+                            Ma formation a débuté en 2005 avec un <span class="red resetColor">Bac Sti génie mécanique</span> puis un <span class="blue resetColor">BTS CRC</span> (niveau). J'ai également obtenu un <span class="green resetColor">CQP</span> en maintenance industrielle. J'ai mis ces compétences au service de différentes entreprises comme <span class="green resetColor">Valéo</span>, <span class="blue resetColor">Gruau</span> ou <span class="red resetColor">Spie</span>.
+                        </p>
+                        <p>
+                            J'ai par la suite occupé le poste de <span class="green resetColor">Conseiller Technique</span> en téléphonie mobile. Cela m'a permis d'acquérir d'autres compétences ainsi que renforcer celles déjà acquises. Les missions de <span class="green resetColor">formation</span> en tant que <span class="blue resetColor">référent technique</span> m'ont beaucoup enrichi. J'ai ensuite exercé en tant que <span class="green resetColor">Conducteur routier</span>, métier passion qui m'as permis une grande <span class="red resetColor">autonomie</span> dans mon travail.
+                        </p>
+                        <p>
+                            Aujourd'hui, je suis en <span class="blue resetColor">BTS Web concepteur</span>, diplôme que j'effectue en alternance au sein de l'entreprise <span class="red resetColor">Tradition Sarthoise</span> diplôme préparé dans le cadre d'une reconversion professionnelle à la suite d'un <span class="green resetColor"></span>bilan de compétences</span> à <span class="green resetColor">L'ADAPT</span>. J'effectue ma formation au sein de l'école <span class="red resetColor">EKOD</span>, située au Mans.
+                        </p>
+                    </div>
+                    <img src="img/photo.png" alt="Photo de profil"/>
+                </div>
+                <a href="docs/CV_Vincent_Ruffin.pdf" title="Télécharger mon CV" target="_blank" class="button">Télécharger mon CV</a>
+            </div>
+        </div>
+        <div class="about-bg parallax">
+            <div>
+                <p>Je vous laisse découvrir plus en détail mes compétences et les divers projets auxquels j'ai participé.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div>
+            <h1>Mes Compétences</h1>
+            <div class="container">
+                <div class="competences">
+                    <div class="comp">
+                        <h2>Compétences</h2>
+                        <ul>
+                            <li>Programmation Orientée Objet</li>
+                            <li>Développement Web</li>
+                            <li>Gestion de Bases de Données</li>
+                            <li>Gestion de Projet (réflexion, planification, répartition des tâches...)</li>
+                            <li>Conception (maquettage et Intégration)</li>
+                            <li>Anglais intermédiaire</li>
+                        </ul>
+                        <h2>Savoir-être</h2>
+                        <p>Doté d'une grande faculté d'adaptation d'un naturel curieux, je suis également, à l'écoute et passionné par les avancées technologiques.</p>
+                    </div>
+                    <img src="img/computer.svg" alt="Ordinateur"  class="computer"/>
+                    <div class="tech">
+                        <h2>Technologies</h2>
+                        <ul class="techList">
+                            <li>Java</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>SASS</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <h2>Outils</h2>
+                        <ul>
+<li>Logiciels de développement (Visual Studio Code, Wordpress, Bootstrap Studio)</li>
+                            <li>Travail collaboratif (GitHub, Notion )</li>
+                            <li>VirtualBox</li>
+                            <li>Photoshop, Illustrator, Adobe XD, Premiére Pro, After effect </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-bg parallax">
+            <div>
+                <p>Ma formation et mes passions pour l'informatique et le web m'ont permis d'acquérir des compétences dans plusieurs domaines liés au multimédia et à la communication digitale.</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div>
+            <h1>Mon Portfolio</h1>
+            <div class="container">
+                <div class="port">
+                    <a href="#Vr" title="Vincent Ruffin" class="project">
+                        <div class="portImg">
+                            <img src="portfolio/Vr/site.png" alt="Miniature Vincent Ruffin"/>
+                            <div class="over">+</div>
+                        </div>
+                        <h2>Vincent Ruffin</h2>
+                        <p>Site Web portfolio</p>
+                    </a>
+                    <a href="#Rebird" title="Rebird Esport" class="project">
+                        <div class="portImg">
+                            <img src="portfolio/Rebird/logorebird.png" alt="Miniature Rebird Esport"/>
+                            <div class="over">+</div>
+                        </div>
+                        <h2>Rebird Esport</h2>
+                        <p>Rédacteur - concepteur Web</p>
+                    </a>
+                    <a href="#Maker" title="impression 3D" class="project">
+                        <div class="portImg">
+                            <img src="portfolio/Maker/imprimante.jpg" alt="Miniature impression 3D"/>
+                            <div class="over">+</div>
+                        </div>
+                        <h2>impression 3D</h2>
+                        <p>conception 3D</p>
+                    </a>
+                    <a href="#Creation" title="Creation visuelle" class="project">
+                        <div class="portImg">
+                            <img src="portfolio/Creation/Logo.png" alt="Creation visuelle" alt="Miniature Creation visuelle"/>
+                            <div class="over">+</div>
+                        </div>
+                        <h2>Creation visuelle</h2>
+                        <p>Graphisme</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="port-bg parallax">
+            <div>
+                <div>
+                    <img src="img/web.svg" alt="Sites Web"/>
+                    <p><span class="number">1</span> sites Web complets</p>
+                </div>
+                <div>
+                    <img src="img/programming.svg" alt="Projets de programmation"/>
+                    <p><span class="number">2</span> projets</p>
+                </div>
+                <div>
+                    <img src="img/project.svg" alt="Projets"/>
+                    <p><span class="number">3</span> projets au total</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div>
+            <h1>Contact</h1>
+            <div class="container">
+                <div class="contactMe">
+                    <h2>Mon profil vous intéresse ? Envoyez moi un message</h2>
+                </div>
+                <form class="contactForm">
+                    <div class="inputContainer">
+                        <input type="text" name="name" id="name" placeholder="Nom" required/>
+                        <div class="icon"><img src="icons/moustache.svg" alt="Nom"/></div>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="email" name="email" id="email" placeholder="Email" required/>
+                        <div class="icon"><img src="icons/at.svg" alt="Email"/></div>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="text" name="subject" id="subject" placeholder="Sujet" required/>
+                        <div class="icon"><img src="icons/speech-bubble.svg" alt="Sujet"/></div>
+                    </div>
+                    <textarea name="message" id="message" placeholder="Message" required></textarea>
+                    <div class="inputContainer">
+                        <input type="checkbox" name="checkRGPD" id="checkRGPD" required/>
+                        <label for="checkRGPD">En soumettant ce formulaire, j'accepte que les informations saisies soient utilisées pour permettre de me recontacter.</label>
+                    </div>
+                    <input type="submit" value="Envoyer">
+                </form>
+                <a href="mailto:ruffinvincent@outlook.com" title="Envoyez moi un mail" class="button">ruffinvincent@outlook.com</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="socialbar">
+            <div class="social">
+                <a href="https://www.linkedin.com/in/vincent-ruffin-dev/" title="LinkedIn" class="linkedin" target="_blank"><img src="icons/linkedin.svg" alt="LinkedIn"/></a>
+                <a href="https://github.com/vincent-ruffin" title="Github" class="github" target="_blank"><img src="icons/github.svg" alt="Github"/></a>
+            </div>
+            <div>Vincent<span class="bold">Ruffin</span></div>
+        </div>
+        <p>
+            Vincent Ruffin © 2022 | v1.0.0| <a href="#mentions" title="Mentions légales" class="ment">Mentions légales</a>
+        </p>
+    </footer>
+    <div class="toTop">
+        <a href="#home" title="Retourner en haut"><img src="icons/up-arrow.svg" alt="/\"/></a>
+    </div>
+    <div class="overlayBg"></div>
+    <section class="overlay" id="Vr">
+        <div>
+            <a href="#Vr" title="Fermer" class="close"><img src="icons/close.svg" alt="Fermer"/></a>
+            <a href="#Rebird" title="Suivant" class="next"><img src="icons/next.svg" alt="Suivant"/></a>
+            <h1>Vincent Ruffin</h1>
+            <img src="portfolio/Vr/site.png" alt="Vincent Ruffin" class="overlayImg"/>
+            <h2>Développement Web</h2>
+            <h3>2020 | Dernière mise à jour en Décembre 2022</h3>
+            <p>Développement de mon <a href="https://vincent-ruffin.github.io" title="Portfolio">Portfolio</a> pour me présenter et vous faire découvrir mon parcours et mes projets.</p>
+            <div class="flex">
+                <ul>
+                    <li>Développement from scratch en HTML et CSS</li>
+                    <li>Dynamisme du site en JavaScript et jQuery</li>
+                    <li>Envoi des formulaires avec <a href="https://formspree.io/" title="Formspree.io" target="_blank">formspree.io</a> et AJAX</li>
+                    <li>Référencement naturel SEO</li>
+                    <li>Site Responsive</li>
+                </ul>
+                <ul class="techList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>AJAX</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+            <a href="https://vincent-ruffin.github.io" title="Visiter le site" class="button">Visiter le site</a>
+        </div>
+    </section>
+    <section class="overlay" id="Rebird">
+        <div>
+            <a href="#Rebird" title="Fermer" class="close"><img src="icons/close.svg" alt="Fermer"/></a>
+            <a href="#Vr" title="Précédent" class="prec"><img src="icons/prec.svg" alt="Précédent"/></a>
+            <a href="#Maker" title="Suivant" class="next"><img src="icons/next.svg" alt="Suivant"/></a>
+            <h1>Rebird Esport</h1>
+            <video controls preload="metadata" class="overlayVid">
+                <source src="portfolio/Rebird/gif-rebird.MOV" type="video/mp4"/>
+            </video>
+            <h2>Streamer</h2>
+            <h3>2020 | Dernière mise à jour en Décembre 2022</h3>
+            <p>Membre de Rebird Esport, premiére équipe Handi-Esport au monde <a href="https://rebird.fr/" title="Rebird">association</a>, Rebird est une association créée en juin 2019, avec pour but de mettre en avant l’égalité et l’inclusion dans le secteur de l’esport</p>
+            <div class="flex">
+                <ul>
+                    <li>La sensibilisation au handicap</li>
+                    <li>Performer dans les circuits compétitifs</li>
+                    <li>Diversifier notre présence sur différents titres</li>
+                    <li>Créer des partenariats riches d’échanges</li>
+                    <li>Valoriser l’inclusivité dans l’Esport</li>
+                    <li>Animer la chaîne Twitch via des parties live <a href="https://www.twitch.tv/rebirdesport" title="Twitch Rebird">Ici notre chaîne Twitch !</a></li>
+                    <li>Produire des articles web et assurer la mise à jour du site</li>
+                </ul>
+                <ul class="techList">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>AJAX</li>
+                    <li>jQuery</li>
+                    <li>OVS studio</li>
+                    <li>Twitch</li>
+                    <li>Discord</li>
+                </ul>
+    </section>
+    <section class="overlay" id="Maker">
+        <div>
+            <a href="#Maker" title="Fermer" class="close"><img src="icons/close.svg" alt="Fermer"/></a>
+            <a href="#Rebird" title="Précédent" class="prec"><img src="icons/prec.svg" alt="Précédent"/></a>
+            <a href="#Creation" title="Suivant" class="next"><img src="icons/next.svg" alt="Suivant"/></a>
+            <h1>Maker</h1>
+            <img src="portfolio/Maker/imprimante.jpg" alt="imprimante 3D" class="overlayImg"/>
+            <h2>impression 3D</h2>
+            <h3>2022</h3>
+            <p>Impression 3D et gravure laser 2D via conception personnelle ou via des sites ressources comme <a href="https://www.thingiverse.com/" title="thingiverse" target="_blank">https://www.thingiverse.com/</a>, apprentissage autodidacte.</p>
+            <div class="flex">
+                <ul>
+                    <li>Impression 3D via Alfawise U20 principalement avec filament PLA (ou PLA chargé)</li>
+                    <li>Gravure laser via Cubio (laser led)</li>
+                    <li>Conception de piéce 3D avec le logiciel fusion 360</li>
+                    <li>Conception de fichier G code pour graure CN ou laser via le logiciel Inkscape</li>
+                    <li>Optimisation de l'imprimante avec un pont de diode afin de lisser le courant d'entrée des moteurs d'avance/li>
+                    <li>J'ai pour projet de terminer la programmation d'un Raspberry Pi, afin de commander l'imprimante à distance</li>
+                </ul>
+                <ul class="techList">
+                    <li>Ultimaker Cura 5.2</li>
+                    <li>Inkscape</li>
+                    <li>Fusion 360</li>
+                    <li>Introduction à Blender</li>
+                </ul>
+                </div>
+                <a href="https://www.thingiverse.com/" title="Visiter le site" target="_blank" class="button">Visiter le site</a>
+        </div>
+    </section>
+    <section class="overlay" id="Creation">
+        <div>
+            <a href="#Creation" title="Fermer" class="close"><img src="icons/close.svg" alt="Fermer"/></a>
+            <a href="#Maker" title="Précédent" class="prec"><img src="icons/prec.svg" alt="Précédent"/></a>
+            <h1>Creation visuelle</h1>              
+            <img src="portfolio/Creation/Logo.png" alt="Logo" class="overlayImg"/>
+            <h2>Conception graphique</h2>
+            <h3>2021</h3>
+            <p>Creation d'une identité graphique pour l'entreprise <a href="https://www.facebook.com/profile.php?id=100084105875562" title="Creation visuelle" target="_blank">Steven Heurtebise Maçonnerie</a>. Réalisé dans le cadre du projet d'Ingénierie Logicielle de L3 Sciences Cognitives (Semestre 5).</p>
+           <div class="flex">
+                <ul>
+                    <li>Recueil des besoins</li>
+                    <li>Création d'une charte graphique</li>
+                    <li>Création de maquette</li>
+                    <li>Validation final</li>
+                    <li>Création de plusieurs fichiers sous différents formats (web, impression...)</li>
+                    <li>Explication et vulgarisation auprés du client</li>
+                    <li>Conception et commande des différents support de communication (Vêtements, pancartes, cartes de visite...)</li>
+                </ul>
+                
+                <ul class="techList">
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Vistacreate</li>
+                </ul>
+    </section>
+    <section class="overlay" id="mentions">
+        <div>
+            <a href="#mentions" title="Fermer" class="close"><img src="icons/close.svg" alt="Fermer"/></a>
+            <h1>Mentions légales</h1>
+            <p>
+                Merci de lire avec attention les différentes modalités d’utilisation du présent site avant d’y parcourir ses pages. En vous connectant sur ce site, vous acceptez sans réserves les présentes modalités. Aussi, conformément à l’article n°6 de la Loi n°2004-575 du 21 Juin 2004 pour la confiance dans l’économie numérique, les responsables du présent site internet <a href="https://vincent-ruffin.github.io/portfolio_vincent/">vincent-ruffin.github.io</a> sont :
+            </p>
+            <h3>Éditeur du Site :</h3>
+            <p>
+                Vincent Ruffin
+                <br/>
+                72100 Le Mans
+                <br/>
+                Email : ruffinvincent@outlook.com
+                <br/>
+                Site Web : <a href="https://vincent-ruffin.github.io/portfolio_vincent/">vincent-ruffin.github.io</a>
+            </p>
+            <h3>Hébergeur :</h3>
+            <p>
+                GitHub
+                <br/>
+                San Francisco, Californie, États-Unis
+                <br/>
+                Site Web : <a href="http://github.com">github.com</a>
+            </p>
+            <h3>Développeur :</h3>
+            <p>
+                Vincent Ruffin
+                <br/>
+                72100 Le Mans
+                <br/>
+                Site Web : <a href="https://vincent-ruffin.github.io/portfolio_vincent/">vincent-ruffin.github.io</a>
+            </p>
+            <h2>Conditions d’utilisation :</h2>
+            <p>
+                Ce site (<a href="https://vincent-ruffin.github.io/portfolio_vincent/">vincent-ruffin.github.io</a>) est proposé en différents langages web (HTML, HTML5, Javascript, CSS, etc…) pour un meilleur confort d'utilisation et un graphisme plus agréable, nous vous recommandons de recourir à des navigateurs modernes comme Firefox, Google Chrome, Safari, etc… Les mentions légales ont été générées sur le site <a title="Générateur de mentions légales pour site internet gratuit" href="http://www.generateur-de-mentions-legales.com">Générateur de mentions légales</a>, offert par <a title="Imprimerie Paris" href="http://welye.com">Welye</a>.
+            </p>
+            <h3>Services fournis :</h3>
+            <p>
+                Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule responsabilité. En conséquence, ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur ou d'une quelconque perte de données consécutives au téléchargement. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis-à-jour
+            </p>
+            <p>
+                Les liens hypertextes mis en place dans le cadre du présent site internet en direction d'autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de Vincent Ruffin.
+            </p>
+            <h3>Propriété intellectuelle :</h3>
+            <p>
+                Tout le contenu du présent sur le site <a href="https://vincent-ruffin.github.io/portfolio_vincent/">vincent-ruffin.github.io</a>, incluant, de façon non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, gifs et icônes ainsi que leur mise en forme sont la propriété exclusive de la Carbonnier Nicolas à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.
+            </p>
+            <p>
+                Icônes faites par <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a>, <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>, <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> et <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> de <a href="https://www.flaticon.com/" title="Flaticon"> flaticon.com</a>.
+            </p>
+            <p>
+                Images de fond provenant de <a href="https://pixabay.com/" title="Pixabay">pixabay.com</a>.
+            </p>
+            <p>
+                Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord exprès par écrit de Vincent Ruffin. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle. Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur. En outre, les propriétaires des Contenus copiés pourraient intenter une action en justice à votre encontre.
+            </p>
+            <h3>Données personnelles :</h3>
+            <p>
+                De manière générale, vous n’êtes pas tenu de nous communiquer vos données personnelles lorsque vous visitez notre site Internet <a href="https://vincent-ruffin.github.io/portfolio_vincent/">vincent-ruffin.github.io</a>.
+            </p>
+            <p>
+                Cependant, ce principe comporte certaines exceptions. En effet, pour certains services proposés par notre site, vous pouvez être amenés à nous communiquer certaines données telles que : votre nom, votre prénom et votre adresse électronique. Tel est le cas lorsque vous remplissez le formulaire qui vous est proposé en ligne, dans la rubrique «Contact». Dans tous les cas, vous pouvez refuser de fournir vos données personnelles. Dans ce cas, vous ne pourrez pas utiliser les services du site, notamment celui de solliciter nos services.
+            </p>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    
+</body>
+</html>
